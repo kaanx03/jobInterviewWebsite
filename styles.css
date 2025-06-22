@@ -1,0 +1,1021 @@
+/* ================================
+   GENMAR ÜRÜN KATALOĞU - CSS
+   Gelişmiş Çalışma Özellikleri
+   ================================ */
+
+/* Reset ve Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+/* Container - Daha geniş yapıldı */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px;
+  width: 95%;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.header p {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.search-box {
+  flex: 1;
+  max-width: 500px;
+  padding: 12px 20px;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-box:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 10px rgba(102, 126, 234, 0.3);
+}
+
+.lang-toggle {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.lang-toggle:hover {
+  background: #5a6fd8;
+  transform: translateY(-2px);
+}
+
+/* ================================
+   ÇALIŞMA ÖZELLİKLERİ
+   ================================ */
+
+/* Study Controls */
+.study-controls {
+  margin-top: 25px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.study-modes {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.study-mode-btn {
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.study-mode-btn:hover {
+  background: white;
+  transform: translateY(-2px);
+}
+
+.study-mode-btn.active {
+  background: #fff;
+  border-color: #667eea;
+  color: #667eea;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+}
+
+/* Progress Bar */
+.study-progress {
+  text-align: center;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+}
+
+.progress-bar-container {
+  background: rgba(255, 255, 255, 0.3);
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #28a745, #20c997);
+  height: 100%;
+  transition: width 0.5s ease;
+  border-radius: 4px;
+}
+
+/* Stats */
+.stats {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ================================
+   ÜRÜN KARTLARI VE ÇALIŞMA MODU
+   ================================ */
+
+/* Products Grid - Normal grid modunda */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* Study Mode Container - Quiz, Sorular, Flashcard modları için */
+.study-mode-container {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Product Card */
+.product-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  border-left: 5px solid #667eea;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.product-card.viewed {
+  border-left-color: #28a745;
+  background: rgba(240, 248, 255, 0.95);
+}
+
+.product-header {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.favorite-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  opacity: 0.6;
+}
+
+.favorite-btn:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.favorite-btn.active {
+  opacity: 1;
+  color: #ffd700;
+}
+
+.viewed-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #28a745;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.product-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.product-title-en {
+  font-size: 1rem;
+  color: #7f8c8d;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.product-features {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 12px;
+  border-left: 4px solid #28a745;
+}
+
+.features-title {
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.features-text {
+  color: #6c757d;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+/* ================================
+   BÜYÜK EKRAN QUİZ MODU - CONTAINER GENİŞLİĞİNDE
+   ================================ */
+
+.quiz-container-large {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.98);
+  border-radius: 25px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  min-height: 400px;
+  display: block;
+}
+
+.quiz-header-large h1 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 2.2rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.quiz-subtitle {
+  color: #7f8c8d;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.quiz-question-large {
+  margin-bottom: 30px;
+}
+
+.question-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 15px 35px rgba(102, 126, 234, 0.3);
+}
+
+.question-card h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.question-features {
+  font-size: 1rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.quiz-options-large {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.quiz-option {
+  background: #f8f9fa;
+  border: 3px solid #e9ecef;
+  padding: 18px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.quiz-option:hover {
+  background: #e9ecef;
+  border-color: #667eea;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.2);
+}
+
+.quiz-option.correct {
+  background: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+  animation: correctPulse 0.6s ease;
+}
+
+.quiz-option.wrong {
+  background: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+  animation: wrongShake 0.5s ease;
+}
+
+@keyframes correctPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes wrongShake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  75% {
+    transform: translateX(10px);
+  }
+}
+
+.quiz-controls-large {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.quiz-control-btn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  min-width: 120px;
+}
+
+.quiz-control-btn:hover {
+  background: #5a6268;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-control-btn.primary {
+  background: #667eea;
+}
+
+.quiz-control-btn.primary:hover {
+  background: #5a6fd8;
+}
+
+/* ================================
+   BÜYÜK EKRAN SORU MODU - CONTAINER GENİŞLİĞİNDE
+   ================================ */
+
+.question-container-large {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.98);
+  border-radius: 25px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  min-height: 400px;
+  display: block;
+}
+
+.question-header-large h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.question-category {
+  background: #e74c3c;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.question-content-large {
+  margin-bottom: 30px;
+}
+
+.question-card-large {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 30px;
+  border-radius: 20px;
+  border-left: 6px solid #e74c3c;
+  text-align: left;
+  width: 100%;
+}
+
+.question-text {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.answer-section {
+  text-align: center;
+}
+
+.show-answer-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.show-answer-btn:hover {
+  background: #218838;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(40, 167, 69, 0.3);
+}
+
+.answer-content {
+  background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+  padding: 20px;
+  border-radius: 15px;
+  border-left: 4px solid #28a745;
+  text-align: left;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.answer-content h3 {
+  color: #155724;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.answer-content p {
+  color: #155724;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.question-controls-large {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.question-counter {
+  font-weight: 700;
+  color: #2c3e50;
+  font-size: 1.1rem;
+  background: rgba(231, 76, 60, 0.1);
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 2px solid #e74c3c;
+}
+
+.question-control-btn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  min-width: 150px;
+}
+
+.question-control-btn:hover {
+  background: #5a6268;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.question-control-btn.primary {
+  background: #e74c3c;
+}
+
+.question-control-btn.primary:hover {
+  background: #c0392b;
+}
+
+/* ================================
+   BÜYÜK EKRAN FLASHCARD MODU - CONTAINER GENİŞLİĞİNDE
+   ================================ */
+
+.flashcard-container-large {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  text-align: center;
+  display: block;
+}
+
+.flashcard-header-large {
+  background: rgba(255, 255, 255, 0.98);
+  padding: 25px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.flashcard-header-large h1 {
+  color: #2c3e50;
+  margin-bottom: 12px;
+  font-size: 2rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.flashcard-subtitle {
+  color: #7f8c8d;
+  font-size: 1rem;
+}
+
+.flashcard-large {
+  perspective: 1000px;
+  height: 400px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+}
+
+.flashcard-front-large,
+.flashcard-back-large {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.8s;
+  border-radius: 25px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.flashcard-front-large {
+  background: rgba(255, 255, 255, 0.98);
+  border-left: 6px solid #9b59b6;
+}
+
+.flashcard-back-large {
+  transform: rotateY(180deg);
+  background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
+  color: white;
+}
+
+.flashcard-large.flipped .flashcard-front-large {
+  transform: rotateY(-180deg);
+}
+
+.flashcard-large.flipped .flashcard-back-large {
+  transform: rotateY(0deg);
+}
+
+.flashcard-front-large h2,
+.flashcard-back-large h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.flashcard-features-large {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.flashcard-details-large {
+  font-size: 1rem;
+  line-height: 1.5;
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.flashcard-controls-large {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.98);
+  padding: 15px 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.flashcard-control-btn {
+  background: #9b59b6;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  min-width: 110px;
+}
+
+.flashcard-control-btn:hover {
+  background: #8e44ad;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(155, 89, 182, 0.3);
+}
+
+.card-counter-large {
+  font-weight: 700;
+  color: #2c3e50;
+  font-size: 1.1rem;
+}
+
+/* ================================
+   ÜRÜN DETAYLARI
+   ================================ */
+
+.product-details {
+  background: #fff3cd;
+  padding: 15px;
+  border-radius: 12px;
+  border-left: 4px solid #ffc107;
+  margin-top: 15px;
+}
+
+.details-title {
+  font-weight: 600;
+  color: #856404;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.details-text {
+  color: #856404;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+/* ================================
+   UTILITY CLASSES
+   ================================ */
+
+.hidden {
+  display: none;
+}
+
+/* No Results */
+.no-results {
+  text-align: center;
+  padding: 60px 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.no-results h3 {
+  color: #6c757d;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.no-results p {
+  color: #9da3a8;
+}
+
+/* Highlight */
+.highlight {
+  background-color: #fff3cd;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+/* Category Badge */
+.category-badge {
+  display: inline-block;
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.loading h3 {
+  color: #667eea;
+  margin-bottom: 10px;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #667eea;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 20px;
+}
+
+/* Animations */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ================================
+   RESPONSIVE DESIGN
+   ================================ */
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1100px;
+    padding: 25px;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .header p {
+    font-size: 1rem;
+  }
+
+  .controls {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-box {
+    max-width: 100%;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .product-card {
+    padding: 20px;
+  }
+
+  .study-modes {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .study-mode-btn {
+    font-size: 12px;
+    padding: 8px 15px;
+  }
+
+  .progress-info {
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+  }
+
+  .quiz-options-large {
+    grid-template-columns: 1fr;
+  }
+
+  .quiz-container-large,
+  .question-container-large {
+    padding: 25px;
+    margin: 0 10px;
+  }
+
+  .quiz-header-large h1,
+  .question-header-large h1 {
+    font-size: 1.8rem;
+  }
+
+  .question-card h2 {
+    font-size: 1.3rem;
+  }
+
+  .flashcard-large {
+    height: 350px;
+  }
+
+  .flashcard-front-large,
+  .flashcard-back-large {
+    padding: 30px 20px;
+  }
+
+  .flashcard-front-large h2,
+  .flashcard-back-large h2 {
+    font-size: 1.5rem;
+  }
+
+  .flashcard-features-large {
+    font-size: 1rem;
+  }
+
+  .flashcard-controls-large {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .flashcard-control-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  .header {
+    padding: 20px;
+  }
+
+  .header h1 {
+    font-size: 1.6rem;
+  }
+
+  .product-card {
+    padding: 15px;
+  }
+
+  .study-controls {
+    padding: 15px;
+  }
+
+  .quiz-container-large,
+  .question-container-large {
+    padding: 20px;
+  }
+
+  .quiz-header-large h1,
+  .question-header-large h1 {
+    font-size: 1.6rem;
+  }
+
+  .flashcard-large {
+    height: 300px;
+  }
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background: white;
+  }
+
+  .header,
+  .product-card {
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+
+  .controls,
+  .study-controls {
+    display: none;
+  }
+
+  .product-card:hover {
+    transform: none;
+  }
+}

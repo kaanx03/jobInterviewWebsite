@@ -1,0 +1,754 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "nameTR": "Torkmetre ve Sıkma Sistemleri",
+      "nameEN": "Torque Meters & Fastening Systems",
+      "featuresTR": "Gerçek zamanlı tork kontrolü, yüksek hassasiyet, çoklu alet yönetimi, otomasyon entegrasyonu",
+      "featuresEN": "Real-time torque control, high precision, multi-tool management, automation integration",
+      "detailsTR": "Torkun ne olduğu, torkmetrenin çalışma prensibi ve kalibrasyonun üretim kalitesine etkisi önemlidir. Tork-açı kontrolü ve otomatik tork yönetimi kritik faktörlerdir.",
+      "detailsEN": "Understanding torque principles, torque meter working mechanisms and calibration effects on production quality are essential. Torque-angle control and automatic torque management are critical factors.",
+      "category": "measurement"
+    },
+    {
+      "id": 2,
+      "nameTR": "Bataryalı El Aletleri",
+      "nameEN": "Cordless Power Tools",
+      "featuresTR": "Kablosuz, kompakt tasarım, dar alanlarda etkili kullanım, uzun pil ömrü",
+      "featuresEN": "Wireless, compact design, effective in tight spaces, long battery life",
+      "detailsTR": "Hassas montaj işlemlerinde kullanılan kablosuz aletler. Kompakt tasarım ve ergonomik yapı kritik özelliklerdir.",
+      "detailsEN": "Cordless tools used in precision assembly operations. Compact design and ergonomic structure are critical features.",
+      "category": "tools"
+    },
+    {
+      "id": 3,
+      "nameTR": "Havalı Çekiç ve Darbeli Aletler",
+      "nameEN": "Pneumatic Hammers & Impact Tools",
+      "featuresTR": "Titreşim azaltma, yüksek darbe gücü, hızlı uç değişimi, ağır hizmet tipi yapı",
+      "featuresEN": "Low vibration, strong impact force, quick bit change, heavy-duty construction",
+      "detailsTR": "Ağır sanayi uygulamalarında kullanılan pnömatik sistemler. Düşük titreşim ve yüksek verimlilik sağlar.",
+      "detailsEN": "Pneumatic systems used in heavy industrial applications. Provides low vibration and high efficiency.",
+      "category": "pneumatic"
+    },
+    {
+      "id": 4,
+      "nameTR": "Hava Motorları",
+      "nameEN": "Air Motors",
+      "featuresTR": "Elektrik gerektirmez, aşırı yük koruması, düşük bakım ihtiyacı, çeşitli güç seçenekleri",
+      "featuresEN": "No electricity needed, overload protection, low maintenance, various power options",
+      "detailsTR": "Hava motorları elektrik kullanmaz, basınçlı hava ile çalışır. Patlayıcı ve zorlu ortamlarda tercih edilir, bakımı kolaydır.",
+      "detailsEN": "Air motors don't use electricity, operate with compressed air. Preferred in explosive and harsh environments, easy to maintain.",
+      "category": "motors"
+    },
+    {
+      "id": 5,
+      "nameTR": "Marş Motorları (Turbine Air Starters)",
+      "nameEN": "Air Starters (Turbine Type)",
+      "featuresTR": "Yağsız çalışma, zorlu koşullara dayanıklılık, hafif yapı, kolay bakım",
+      "featuresEN": "Oil-free operation, harsh environment resistance, lightweight design, easy serviceability",
+      "detailsTR": "Turbine tip hava marş motorları, büyük makinelerin güvenli ve güvenilir şekilde çalıştırılmasını sağlar.",
+      "detailsEN": "Turbine type air starters ensure safe and reliable operation of large machinery.",
+      "category": "motors"
+    },
+    {
+      "id": 6,
+      "nameTR": "Boya ve Mastik Püskürtme Sistemleri",
+      "nameEN": "Paint & Sealant Spraying Systems",
+      "featuresTR": "Elektrostatik veya pnömatik sistemler, yüksek kaplama kalitesi, kolay temizlik, düşük boya kaybı",
+      "featuresEN": "Electrostatic or pneumatic systems, high coating quality, easy cleaning, minimal paint loss",
+      "detailsTR": "Graco sistemleri ile mastik uygulamalarında homojen dağıtım sağlanır. Elektrostatik sprey ve pnömatik sistemlerle boya israfı azaltılır.",
+      "detailsEN": "Graco systems provide homogeneous distribution in sealant applications. Paint waste is reduced with electrostatic spray and pneumatic systems.",
+      "category": "systems"
+    },
+    {
+      "id": 7,
+      "nameTR": "Akışkan Transfer ve Pompalar",
+      "nameEN": "Fluid Transfer Pumps",
+      "featuresTR": "Hassas dozajlama, uzun ömürlü, kimyasallara dayanıklı, otomasyon ile uyumlu",
+      "featuresEN": "Precise dosing, long service life, chemical resistance, automation-compatible",
+      "detailsTR": "Kimyasal ve endüstriyel sıvıların güvenli transferi için tasarlanmış pompa sistemleri.",
+      "detailsEN": "Pump systems designed for safe transfer of chemical and industrial fluids.",
+      "category": "pumps"
+    },
+    {
+      "id": 8,
+      "nameTR": "Saplama Kaynak ve Perçinleme Sistemleri",
+      "nameEN": "Stud Welding & Riveting Systems",
+      "featuresTR": "Delme gerektirmez, alüminyum ve sac yüzeylere uygun, otomotiv sektörüne özel çözümler",
+      "featuresEN": "No drilling required, suitable for aluminum and sheet metal, designed for automotive sector",
+      "detailsTR": "Saplama kaynak yöntemi, delik açmadan sac ve metal yüzeylerde güçlü bağlantılar sağlar. Otomotiv sektöründe yaygın kullanılır.",
+      "detailsEN": "Stud welding method provides strong connections on sheet metal and metal surfaces without drilling. Widely used in automotive sector.",
+      "category": "welding"
+    },
+    {
+      "id": 9,
+      "nameTR": "Manipülatörler",
+      "nameEN": "Manipulators",
+      "featuresTR": "Ağır yükleri ergonomik şekilde taşıma, işçi güvenliği, üretim verimliliği, pnömatik veya elektrikli kontrol",
+      "featuresEN": "Ergonomic handling of heavy loads, worker safety, production efficiency, pneumatic or electric control",
+      "detailsTR": "Ağır yüklerin ergonomik olarak taşınması için tasarlanmış sistemler. İşçi sağlığı ve güvenliğini artırır.",
+      "detailsEN": "Systems designed for ergonomic handling of heavy loads. Improves worker health and safety.",
+      "category": "handling"
+    },
+    {
+      "id": 10,
+      "nameTR": "Vakum Sistemleri",
+      "nameEN": "Vacuum Systems",
+      "featuresTR": "Yüksek vakum gücü, düşük enerji tüketimi, mobil veya sabit kullanım, otomatik kontrol",
+      "featuresEN": "High vacuum power, low energy consumption, mobile or stationary use, automatic control",
+      "category": "systems"
+    },
+    {
+      "id": 11,
+      "nameTR": "Hassas Montaj Araçları",
+      "nameEN": "Precision Assembly Tools",
+      "featuresTR": "Mikron hassasiyeti, ergonomik tasarım, elektronik kontrol, kalibrasyon sertifikası",
+      "featuresEN": "Micron precision, ergonomic design, electronic control, calibration certificate",
+      "category": "tools"
+    },
+    {
+      "id": 12,
+      "nameTR": "Endüstriyel Robotik Çözümler",
+      "nameEN": "Industrial Robotic Solutions",
+      "featuresTR": "6-axis robot kolları, AI destekli programlama, güvenlik sensörleri, uzaktan erişim",
+      "featuresEN": "6-axis robot arms, AI-assisted programming, safety sensors, remote access",
+      "category": "robotics"
+    },
+    {
+      "id": 13,
+      "nameTR": "Ölçüm ve Test Sistemleri",
+      "nameEN": "Measurement & Test Systems",
+      "featuresTR": "Dijital gösterge, veri kaydetme, USB bağlantısı, kalibre edilmiş sensörler",
+      "featuresEN": "Digital display, data logging, USB connectivity, calibrated sensors",
+      "category": "measurement"
+    },
+    {
+      "id": 14,
+      "nameTR": "Kaynak Makineleri",
+      "nameEN": "Welding Machines",
+      "featuresTR": "TIG/MIG/MAG desteği, inverter teknolojisi, otomatik ark kontrolü, taşınabilir tasarım",
+      "featuresEN": "TIG/MIG/MAG support, inverter technology, automatic arc control, portable design",
+      "category": "welding"
+    },
+    {
+      "id": 15,
+      "nameTR": "Kesme ve Delme Sistemleri",
+      "nameEN": "Cutting & Drilling Systems",
+      "featuresTR": "Yüksek hızlı kesim, hassas pozisyonlama, otomatik besleme, soğutma sistemi",
+      "featuresEN": "High-speed cutting, precise positioning, automatic feeding, cooling system",
+      "category": "machining"
+    },
+    {
+      "id": 16,
+      "nameTR": "Yüzey İşlem Makineleri",
+      "nameEN": "Surface Treatment Machines",
+      "featuresTR": "Kumlama, parlatma, temizlik, programlanabilir çevrimler, toz toplama sistemi",
+      "featuresEN": "Sandblasting, polishing, cleaning, programmable cycles, dust collection system",
+      "category": "surface"
+    },
+    {
+      "id": 17,
+      "nameTR": "Hidrolik Sistemler",
+      "nameEN": "Hydraulic Systems",
+      "featuresTR": "Yüksek basınç kapasitesi, hassas kontrol, sızıntı önleme, uzun ömür",
+      "featuresEN": "High pressure capacity, precise control, leak prevention, long service life",
+      "category": "hydraulic"
+    },
+    {
+      "id": 18,
+      "nameTR": "Pnömatik Kontrol Sistemleri",
+      "nameEN": "Pneumatic Control Systems",
+      "featuresTR": "Basınç regülatörleri, hızlı bağlantı elemanları, otomatik vana kontrolleri",
+      "featuresEN": "Pressure regulators, quick-connect fittings, automatic valve control",
+      "category": "pneumatic"
+    },
+    {
+      "id": 19,
+      "nameTR": "Elektrikli Sürücü Sistemleri",
+      "nameEN": "Electric Drive Systems",
+      "featuresTR": "Değişken hız kontrolü, enerji tasarrufu, regeneratif frenleme, network bağlantısı",
+      "featuresEN": "Variable speed control, energy saving, regenerative braking, network connectivity",
+      "category": "electrical"
+    },
+    {
+      "id": 20,
+      "nameTR": "Sensör ve Algılama Sistemleri",
+      "nameEN": "Sensor & Detection Systems",
+      "featuresTR": "Optik, kapasitif, endüktif sensörler, uzun menzil, IP67 koruması",
+      "featuresEN": "Optical, capacitive, inductive sensors, long range, IP67 protection",
+      "category": "sensors"
+    },
+    {
+      "id": 21,
+      "nameTR": "Güvenlik Sistemleri",
+      "nameEN": "Safety Systems",
+      "featuresTR": "Acil durdurma, güvenlik perdeleri, iki el kontrolü, fail-safe tasarım",
+      "featuresEN": "Emergency stop, safety curtains, two-hand control, fail-safe design",
+      "category": "safety"
+    },
+    {
+      "id": 22,
+      "nameTR": "Konveyör Sistemleri",
+      "nameEN": "Conveyor Systems",
+      "featuresTR": "Modüler yapı, değişken hız, yük sensörleri, sessiz çalışma",
+      "featuresEN": "Modular structure, variable speed, load sensors, quiet operation",
+      "category": "conveyor"
+    },
+    {
+      "id": 23,
+      "nameTR": "Paketleme ve Etiketleme",
+      "nameEN": "Packaging & Labeling",
+      "featuresTR": "Otomatik boyutlandırma, barkod okuma, kalite kontrol, yüksek hız işlem",
+      "featuresEN": "Automatic sizing, barcode reading, quality control, high-speed processing",
+      "category": "packaging"
+    },
+    {
+      "id": 24,
+      "nameTR": "Malzeme Taşıma Araçları",
+      "nameEN": "Material Handling Equipment",
+      "featuresTR": "Forklift, palet jack, transpalet, elektrikli tahrik, güvenlik özellikleri",
+      "featuresEN": "Forklifts, pallet jacks, electric drive, safety features",
+      "category": "handling"
+    },
+    {
+      "id": 25,
+      "nameTR": "Depolama Sistemleri",
+      "nameEN": "Storage Systems",
+      "featuresTR": "Otomatik depo yönetimi, RFID takip, yüksek raf sistemleri, envanter kontrol",
+      "featuresEN": "Automated warehouse management, RFID tracking, high-bay systems, inventory control",
+      "category": "storage"
+    },
+    {
+      "id": 26,
+      "nameTR": "Temizlik ve Bakım Makineleri",
+      "nameEN": "Cleaning & Maintenance Equipment",
+      "featuresTR": "Endüstriyel temizleyiciler, yağ ayırıcılar, filtre sistemleri, otomatik dozajlama",
+      "featuresEN": "Industrial cleaners, oil separators, filter systems, automatic dosing",
+      "category": "maintenance"
+    },
+    {
+      "id": 27,
+      "nameTR": "Kalite Kontrol Sistemleri",
+      "nameEN": "Quality Control Systems",
+      "featuresTR": "3D tarama, optik ölçüm, istatistiksel analiz, hata tespit sistemi",
+      "featuresEN": "3D scanning, optical measurement, statistical analysis, defect detection system",
+      "category": "quality"
+    },
+    {
+      "id": 28,
+      "nameTR": "Elektronik Test Cihazları",
+      "nameEN": "Electronic Test Equipment",
+      "featuresTR": "Multimetre, osiloskop, spektrum analizörü, sinyal jeneratörü, PC bağlantısı",
+      "featuresEN": "Multimeter, oscilloscope, spectrum analyzer, signal generator, PC connectivity",
+      "category": "testing"
+    },
+    {
+      "id": 29,
+      "nameTR": "Proses Kontrol Sistemleri",
+      "nameEN": "Process Control Systems",
+      "featuresTR": "PLC kontrol, HMI paneller, SCADA entegrasyonu, uzaktan izleme, alarm sistemi",
+      "featuresEN": "PLC control, HMI panels, SCADA integration, remote monitoring, alarm system",
+      "category": "control"
+    },
+    {
+      "id": 30,
+      "nameTR": "Motor ve Aktüatörler",
+      "nameEN": "Motors & Actuators",
+      "featuresTR": "Servo motor, step motor, lineer aktüatör, encoder feedback, yüksek tork",
+      "featuresEN": "Servo motor, stepper motor, linear actuator, encoder feedback, high torque",
+      "category": "motors"
+    },
+    {
+      "id": 31,
+      "nameTR": "Güç Kaynakları",
+      "nameEN": "Power Supplies",
+      "featuresTR": "Switch-mode, UPS, batarya yedekleme, aşırı yük koruması, verimli tasarım",
+      "featuresEN": "Switch-mode, UPS, battery backup, overload protection, efficient design",
+      "category": "power"
+    },
+    {
+      "id": 32,
+      "nameTR": "Isıtma ve Soğutma Sistemleri",
+      "nameEN": "Heating & Cooling Systems",
+      "featuresTR": "Endüstriyel fırın, chiller, heat exchanger, termostat kontrol, enerji tasarrufu",
+      "featuresEN": "Industrial furnace, chiller, heat exchanger, thermostat control, energy saving",
+      "category": "thermal"
+    },
+    {
+      "id": 33,
+      "nameTR": "Havalandırma Sistemleri",
+      "nameEN": "Ventilation Systems",
+      "featuresTR": "Endüstriyel fan, hava filtreleri, duman tahliye, otomatik kontrol, sessiz çalışma",
+      "featuresEN": "Industrial fans, air filters, smoke extraction, automatic control, quiet operation",
+      "category": "ventilation"
+    },
+    {
+      "id": 34,
+      "nameTR": "Kompresör ve Hava Sistemleri",
+      "nameEN": "Compressor & Air Systems",
+      "featuresTR": "Vida kompresör, hava kurutucusu, basınç tankı, otomatik drenaj, enerji izleme",
+      "featuresEN": "Screw compressor, air dryer, pressure tank, automatic drain, energy monitoring",
+      "category": "pneumatic"
+    },
+    {
+      "id": 35,
+      "nameTR": "Su Arıtma Sistemleri",
+      "nameEN": "Water Treatment Systems",
+      "featuresTR": "RO sistemi, UV sterilizasyon, iyon değişimi, otomatik kontrol, kalite izleme",
+      "featuresEN": "RO system, UV sterilization, ion exchange, automatic control, quality monitoring",
+      "category": "water"
+    },
+    {
+      "id": 36,
+      "nameTR": "Atık Yönetim Sistemleri",
+      "nameEN": "Waste Management Systems",
+      "featuresTR": "Sıkıştırma, ayırma, geri dönüşüm, otomatik boşaltma, çevre dostu",
+      "featuresEN": "Compaction, separation, recycling, automatic discharge, environmentally friendly",
+      "category": "waste"
+    },
+    {
+      "id": 37,
+      "nameTR": "Enerji Yönetim Sistemleri",
+      "nameEN": "Energy Management Systems",
+      "featuresTR": "Akıllı sayaç, güç analizörü, enerji optimizasyonu, raporlama, uzaktan kontrol",
+      "featuresEN": "Smart meter, power analyzer, energy optimization, reporting, remote control",
+      "category": "energy"
+    },
+    {
+      "id": 38,
+      "nameTR": "Aydınlatma Sistemleri",
+      "nameEN": "Lighting Systems",
+      "featuresTR": "LED teknolojisi, hareket sensörü, dimmer kontrol, uzun ömür, düşük enerji",
+      "featuresEN": "LED technology, motion sensor, dimmer control, long life, low energy",
+      "category": "lighting"
+    },
+    {
+      "id": 39,
+      "nameTR": "Güvenlik ve Erişim Kontrolü",
+      "nameEN": "Security & Access Control",
+      "featuresTR": "Kartlı giriş, biyometrik okuyucu, alarm sistemi, kamera entegrasyonu, log kayıt",
+      "featuresEN": "Card access, biometric reader, alarm system, camera integration, log recording",
+      "category": "security"
+    },
+    {
+      "id": 40,
+      "nameTR": "Yangın Algılama ve Söndürme",
+      "nameEN": "Fire Detection & Suppression",
+      "featuresTR": "Duman dedektörü, sprinkler sistem, gaz söndürme, otomatik alarm, uzaktan izleme",
+      "featuresEN": "Smoke detector, sprinkler system, gas suppression, automatic alarm, remote monitoring",
+      "category": "fire"
+    },
+    {
+      "id": 41,
+      "nameTR": "İletişim Sistemleri",
+      "nameEN": "Communication Systems",
+      "featuresTR": "Kablosuz network, fiber optik, interkom sistemi, veri güvenliği, yüksek bant genişliği",
+      "featuresEN": "Wireless network, fiber optic, intercom system, data security, high bandwidth",
+      "category": "communication"
+    },
+    {
+      "id": 42,
+      "nameTR": "Bakım ve Servis Araçları",
+      "nameEN": "Maintenance & Service Tools",
+      "featuresTR": "Taşınabilir test cihazları, yedek parça yönetimi, bakım planlama, uzaktan tanı",
+      "featuresEN": "Portable test equipment, spare parts management, maintenance planning, remote diagnosis",
+      "category": "maintenance"
+    },
+    {
+      "id": 43,
+      "nameTR": "Makine Görme Sistemleri",
+      "nameEN": "Machine Vision Systems",
+      "featuresTR": "Yüksek çözünürlük kamera, AI tabanlı analiz, gerçek zamanlı işlem, kalite kontrol",
+      "featuresEN": "High-resolution camera, AI-based analysis, real-time processing, quality control",
+      "category": "vision"
+    },
+    {
+      "id": 44,
+      "nameTR": "Barkod ve RFID Sistemleri",
+      "nameEN": "Barcode & RFID Systems",
+      "featuresTR": "Otomatik okuma, veri tabanı entegrasyonu, uzun menzil, çoklu format desteği",
+      "featuresEN": "Automatic reading, database integration, long range, multi-format support",
+      "category": "identification"
+    },
+    {
+      "id": 45,
+      "nameTR": "3D Yazıcı ve Prototipleme",
+      "nameEN": "3D Printing & Prototyping",
+      "featuresTR": "Metal ve plastik baskı, yüksek hassasiyet, büyük boyut kapasitesi, hızlı üretim",
+      "featuresEN": "Metal and plastic printing, high precision, large size capacity, rapid production",
+      "category": "printing"
+    },
+    {
+      "id": 46,
+      "nameTR": "Laser İşleme Sistemleri",
+      "nameEN": "Laser Processing Systems",
+      "featuresTR": "Kesme, gravür, kaynak, temizlik, yüksek hassasiyet, otomatik odaklama",
+      "featuresEN": "Cutting, engraving, welding, cleaning, high precision, automatic focusing",
+      "category": "laser"
+    },
+    {
+      "id": 47,
+      "nameTR": "CNC Makine Takımları",
+      "nameEN": "CNC Machine Tools",
+      "featuresTR": "5-axis işleme, otomatik takım değişimi, hassas pozisyonlama, CAD/CAM entegrasyonu",
+      "featuresEN": "5-axis machining, automatic tool change, precise positioning, CAD/CAM integration",
+      "category": "cnc"
+    },
+    {
+      "id": 48,
+      "nameTR": "Endüstriyel Yazılım Çözümleri",
+      "nameEN": "Industrial Software Solutions",
+      "featuresTR": "MES sistem, ERP entegrasyonu, veri analizi, bulut desteği, mobil erişim",
+      "featuresEN": "MES system, ERP integration, data analytics, cloud support, mobile access",
+      "detailsTR": "MES (Manufacturing Execution System) üretim süreçlerinin gerçek zamanlı izlenmesi ve yönetilmesini sağlar. Üretim hattındaki performansı artırır.",
+      "detailsEN": "MES (Manufacturing Execution System) provides real-time monitoring and management of production processes. Improves production line performance.",
+      "category": "software"
+    }
+  ],
+  "studyQuestions": [
+    {
+      "id": "tech1",
+      "questionTR": "Tork sistemleri hakkında ne biliyorsunuz?",
+      "questionEN": "What do you know about torque systems?",
+      "answerTR": "Torkmetre sistemleri hassas sıkma sağlar. Örneğin, montaj hattında kullanılan cihazların kalibrasyonu üretim kalitesini etkiler. Tork-açı kontrolü ve otomatik tork yönetimi önemlidir.",
+      "answerEN": "Torque meter systems provide precise tightening. For example, calibration of devices used on assembly lines affects production quality. Torque-angle control and automatic torque management are important.",
+      "category": "Teknik Bilgi"
+    },
+    {
+      "id": "tech2",
+      "questionTR": "MES sistemleri nedir ve nasıl çalışır?",
+      "questionEN": "What are MES systems and how do they work?",
+      "answerTR": "MES (Manufacturing Execution System) üretim süreçlerinin gerçek zamanlı izlenmesi ve yönetilmesini sağlar. Gerçek zamanlı veri sağlar, verimliliği artırır.",
+      "answerEN": "MES (Manufacturing Execution System) provides real-time monitoring and management of production processes. Provides real-time data, increases efficiency.",
+      "category": "Teknik Bilgi"
+    },
+    {
+      "id": "tech3",
+      "questionTR": "Saplama kaynak sistemleri nasıl çalışır?",
+      "questionEN": "How do stud welding systems work?",
+      "answerTR": "Saplama kaynak yöntemi, delik açmadan sac ve metal yüzeylerde güçlü bağlantılar sağlar. Otomotiv sektöründe yaygın kullanılır.",
+      "answerEN": "Stud welding method provides strong connections on sheet metal and metal surfaces without drilling. Widely used in automotive sector.",
+      "category": "Teknik Bilgi"
+    },
+    {
+      "id": "tech4",
+      "questionTR": "Boya ve mastik püskürtme sistemlerinin avantajları nelerdir?",
+      "questionEN": "What are the advantages of paint and sealant spraying systems?",
+      "answerTR": "Graco sistemleri ile mastik uygulamalarında homojen dağıtım sağlanır. Elektrostatik sprey ve pnömatik sistemlerle boya israfı azaltılır, kaplama kalitesi artar.",
+      "answerEN": "Graco systems provide homogeneous distribution in sealant applications. Paint waste is reduced with electrostatic spray and pneumatic systems, coating quality increases.",
+      "category": "Teknik Bilgi"
+    },
+    {
+      "id": "tech5",
+      "questionTR": "Hava motorlarının avantajları nelerdir?",
+      "questionEN": "What are the advantages of air motors?",
+      "answerTR": "Hava motorları elektrik gerektirmez, basınçlı hava ile çalışır. Patlayıcı ve zorlu ortamlarda tercih edilir, düşük bakım ihtiyacı vardır.",
+      "answerEN": "Air motors don't require electricity, operate with compressed air. Preferred in explosive and harsh environments, have low maintenance requirements.",
+      "category": "Teknik Bilgi"
+    },
+    {
+      "id": "tech6",
+      "questionTR": "Arıza teşhis sürecinde hangi adımları takip edersiniz?",
+      "questionEN": "What steps do you follow in the fault diagnosis process?",
+      "answerTR": "İlk olarak bağlantıları kontrol ederim, sonra güç kaynağı ve sensör verilerini incelerim. Sistematik yaklaşım: görsel kontrol, elektriksel testler, multimetre kullanımı ve sorun analizi yapılır.",
+      "answerEN": "First I check connections, then examine power supply and sensor data. Systematic approach: visual inspection, electrical tests, multimeter usage and problem analysis.",
+      "category": "Teknik Bilgi"
+    },
+    {
+      "id": "behavioral1",
+      "questionTR": "STAR yöntemi ile zor bir teknik sorun çözme deneyiminizi anlatın.",
+      "questionEN": "Describe your experience solving a difficult technical problem using the STAR method.",
+      "answerTR": "Durum–Görev–Aksiyon–Sonuç (STAR) formatıyla; örneğin, bir tork cihazı sahada çalışmıyordu, kalibrasyon sorunu bulup yeniden ayarladım, üretim devam etti.",
+      "answerEN": "Using Situation–Task–Action–Result (STAR) format; for example, a torque device wasn't working in the field, I found a calibration issue and readjusted it, production continued.",
+      "category": "Davranışsal Hazırlık"
+    },
+    {
+      "id": "behavioral2",
+      "questionTR": "Saha çalışmasına uygunluğunuzu nasıl değerlendiriyorsunuz?",
+      "questionEN": "How do you evaluate your suitability for field work?",
+      "answerTR": "Saha ortamı bana teknik gelişim sağlar, esnekliğe ve iletişime açığım. Saha ve vardiyalı çalışmaya engelim yok, seyahat benim için sorun değil.",
+      "answerEN": "Field environment provides technical development for me, I'm open to flexibility and communication. I have no obstacles to field and shift work, travel is not a problem for me.",
+      "category": "Davranışsal Hazırlık"
+    },
+    {
+      "id": "behavioral3",
+      "questionTR": "Esnek çalışma koşullarına nasıl adapte olabilirsiniz?",
+      "questionEN": "How can you adapt to flexible working conditions?",
+      "answerTR": "Esnek çalışma saatleri, seyahat ve farklı çalışma koşullarına uyum sağlama becerimi vurgularım. Dinamik ortamlarda çalışmaktan keyif alırım.",
+      "answerEN": "I emphasize my ability to adapt to flexible working hours, travel and different working conditions. I enjoy working in dynamic environments.",
+      "category": "Davranışsal Hazırlık"
+    },
+    {
+      "id": "behavioral4",
+      "questionTR": "İngilizce teknik anlatım becerinizi değerlendirin.",
+      "questionEN": "Evaluate your English technical presentation skills.",
+      "answerTR": "Kısa ve net İngilizce teknik cümlelerle arıza tespiti ve çözümü anlatabiliyorum. Örn: 'I replaced the faulty connector and tested the system with a multimeter.'",
+      "answerEN": "I can explain fault detection and solutions with short and clear English technical sentences. E.g: 'I replaced the faulty connector and tested the system with a multimeter.'",
+      "category": "Davranışsal Hazırlık"
+    },
+    {
+      "id": "behavioral5",
+      "questionTR": "Zor müşteri durumunda nasıl davranırsınız?",
+      "questionEN": "How do you behave in difficult customer situations?",
+      "answerTR": "Zorlu müşteriyle karşılaştığımda sorunu sakince anlatır, çözüm önerisi sunarım. Empati kurar ve sabırlı bir yaklaşım sergilerim.",
+      "answerEN": "When I encounter a difficult customer, I calmly explain the problem and offer solution suggestions. I empathize and show a patient approach.",
+      "category": "Davranışsal Hazırlık"
+    },
+    {
+      "id": "company1",
+      "questionTR": "GENMAR'ın ürün grupları hakkında ne biliyorsunuz?",
+      "questionEN": "What do you know about GENMAR's product groups?",
+      "answerTR": "Tork sistemleri, boya çözümleri, kaynak ve manipülatörleri genel hatlarıyla biliyorum. Endüstriyel otomasyon ve verimlilik odaklı çözümler sunuyorlar.",
+      "answerEN": "I know torque systems, paint solutions, welding and manipulators in general terms. They offer industrial automation and efficiency-focused solutions.",
+      "category": "GENMAR Bilgisi"
+    },
+    {
+      "id": "company2",
+      "questionTR": "GENMAR'ın temsil ettiği markalar hangileridir?",
+      "questionEN": "What brands does GENMAR represent?",
+      "answerTR": "Ingersoll Rand, Graco, Tucker gibi markaları temsil ediyorlar. Bu markalar endüstriyel aletler ve sistemler konusunda uzmanlaşmış.",
+      "answerEN": "They represent brands like Ingersoll Rand, Graco, Tucker. These brands specialize in industrial tools and systems.",
+      "category": "GENMAR Bilgisi"
+    },
+    {
+      "id": "company3",
+      "questionTR": "GENMAR'ın şirket vizyonu ve misyonu nedir?",
+      "questionEN": "What is GENMAR's company vision and mission?",
+      "answerTR": "'Üretirken kazandıran çözümler' vizyonu ve mühendislik yaklaşımı dikkat çekici. Müşteri odaklılığı, inovasyon ve üretimde verimlilik misyonu öne çıkıyor.",
+      "answerEN": "The vision of 'solutions that earn while producing' and engineering approach are remarkable. Customer focus, innovation and production efficiency mission stand out.",
+      "category": "GENMAR Bilgisi"
+    },
+    {
+      "id": "interview1",
+      "questionTR": "Kendinizi İngilizce olarak tanıtın.",
+      "questionEN": "Introduce yourself in English.",
+      "answerTR": "I'm an electronics engineer with field experience in automation systems and troubleshooting industrial tools. I have experience with measurement systems and technical support.",
+      "answerEN": "I'm an electronics engineer with field experience in automation systems and troubleshooting industrial tools. I have experience with measurement systems and technical support.",
+      "category": "Mülakat Soruları"
+    },
+    {
+      "id": "interview2",
+      "questionTR": "GENMAR neden ilginizi çekiyor?",
+      "questionEN": "Why are you interested in GENMAR?",
+      "answerTR": "Endüstriyel ürünleri temsil eden ve teknik destek odaklı çalışan bir şirkette olmak bana katkı sağlar. Saha destekli, teknik çözüme odaklı ve dinamik çalışma ortamı bana hitap ediyor.",
+      "answerEN": "Being in a company that represents industrial products and focuses on technical support contributes to me. Field-supported, technical solution-focused and dynamic working environment appeals to me.",
+      "category": "Mülakat Soruları"
+    },
+    {
+      "id": "interview3",
+      "questionTR": "MES sisteminde deneyiminiz var mı?",
+      "questionEN": "Do you have experience with MES systems?",
+      "answerTR": "MES sisteminde üretim verisi toplanarak duruş süreleri analiz edildi. Böylece verim %15 arttı. Gerçek zamanlı veri toplama ve analiz konusunda deneyimim var.",
+      "answerEN": "In MES system, production data was collected and downtime was analyzed. Thus, efficiency increased by 15%. I have experience in real-time data collection and analysis.",
+      "category": "Mülakat Soruları"
+    },
+    {
+      "id": "technical1",
+      "questionTR": "Multimetre ve kalibrasyon konusundaki bilginizi açıklayın.",
+      "questionEN": "Explain your knowledge about multimeter and calibration.",
+      "answerTR": "Multimetre kullanımı, sensör testi, kalibrasyon adımlarını biliyor ve uygulayabiliyorum. Voltaj, akım ve direnç ölçümlerini doğru şekilde yapabilirim.",
+      "answerEN": "I know and can apply multimeter usage, sensor testing, calibration steps. I can make voltage, current and resistance measurements correctly.",
+      "category": "Teknik Yeterlilik"
+    },
+    {
+      "id": "technical2",
+      "questionTR": "Endüstriyel sistemlerde arıza tespiti nasıl yapılır?",
+      "questionEN": "How is fault detection performed in industrial systems?",
+      "answerTR": "Sistematik yaklaşım gerekir: görsel kontrol, elektriksel testler, multimetre kullanımı ve sorun analizi. Önce güvenlik kontrolleri, sonra aşamalı test prosedürleri uygulanır.",
+      "answerEN": "Systematic approach required: visual inspection, electrical tests, multimeter usage and problem analysis. First safety checks, then gradual test procedures are applied.",
+      "category": "Teknik Yeterlilik"
+    }
+  ],
+  "categories": {
+    "measurement": {
+      "nameTR": "Ölçüm ve Test",
+      "nameEN": "Measurement & Testing",
+      "color": "#3498db"
+    },
+    "tools": {
+      "nameTR": "El Aletleri",
+      "nameEN": "Hand Tools",
+      "color": "#e74c3c"
+    },
+    "pneumatic": {
+      "nameTR": "Pnömatik Sistemler",
+      "nameEN": "Pneumatic Systems",
+      "color": "#2ecc71"
+    },
+    "motors": {
+      "nameTR": "Motor ve Aktüatörler",
+      "nameEN": "Motors & Actuators",
+      "color": "#f39c12"
+    },
+    "systems": {
+      "nameTR": "Sistem Çözümleri",
+      "nameEN": "System Solutions",
+      "color": "#9b59b6"
+    },
+    "pumps": {
+      "nameTR": "Pompalar",
+      "nameEN": "Pumps",
+      "color": "#1abc9c"
+    },
+    "welding": {
+      "nameTR": "Kaynak Sistemleri",
+      "nameEN": "Welding Systems",
+      "color": "#e67e22"
+    },
+    "handling": {
+      "nameTR": "Malzeme Taşıma",
+      "nameEN": "Material Handling",
+      "color": "#34495e"
+    },
+    "robotics": {
+      "nameTR": "Robotik Çözümler",
+      "nameEN": "Robotic Solutions",
+      "color": "#8e44ad"
+    },
+    "machining": {
+      "nameTR": "İşleme Makineleri",
+      "nameEN": "Machining Equipment",
+      "color": "#27ae60"
+    },
+    "surface": {
+      "nameTR": "Yüzey İşlem",
+      "nameEN": "Surface Treatment",
+      "color": "#16a085"
+    },
+    "hydraulic": {
+      "nameTR": "Hidrolik Sistemler",
+      "nameEN": "Hydraulic Systems",
+      "color": "#2980b9"
+    },
+    "electrical": {
+      "nameTR": "Elektrikli Sistemler",
+      "nameEN": "Electrical Systems",
+      "color": "#f1c40f"
+    },
+    "sensors": {
+      "nameTR": "Sensörler",
+      "nameEN": "Sensors",
+      "color": "#95a5a6"
+    },
+    "safety": {
+      "nameTR": "Güvenlik Sistemleri",
+      "nameEN": "Safety Systems",
+      "color": "#c0392b"
+    },
+    "conveyor": {
+      "nameTR": "Konveyör",
+      "nameEN": "Conveyor",
+      "color": "#d35400"
+    },
+    "packaging": {
+      "nameTR": "Paketleme",
+      "nameEN": "Packaging",
+      "color": "#7f8c8d"
+    },
+    "storage": {
+      "nameTR": "Depolama",
+      "nameEN": "Storage",
+      "color": "#2c3e50"
+    },
+    "maintenance": {
+      "nameTR": "Bakım",
+      "nameEN": "Maintenance",
+      "color": "#f39c12"
+    },
+    "quality": {
+      "nameTR": "Kalite Kontrol",
+      "nameEN": "Quality Control",
+      "color": "#9b59b6"
+    },
+    "testing": {
+      "nameTR": "Test Cihazları",
+      "nameEN": "Test Equipment",
+      "color": "#3498db"
+    },
+    "control": {
+      "nameTR": "Proses Kontrol",
+      "nameEN": "Process Control",
+      "color": "#e74c3c"
+    },
+    "power": {
+      "nameTR": "Güç Kaynakları",
+      "nameEN": "Power Supplies",
+      "color": "#f1c40f"
+    },
+    "thermal": {
+      "nameTR": "Isıl Sistemler",
+      "nameEN": "Thermal Systems",
+      "color": "#e67e22"
+    },
+    "ventilation": {
+      "nameTR": "Havalandırma",
+      "nameEN": "Ventilation",
+      "color": "#1abc9c"
+    },
+    "water": {
+      "nameTR": "Su Sistemleri",
+      "nameEN": "Water Systems",
+      "color": "#3498db"
+    },
+    "waste": {
+      "nameTR": "Atık Yönetimi",
+      "nameEN": "Waste Management",
+      "color": "#27ae60"
+    },
+    "energy": {
+      "nameTR": "Enerji Yönetimi",
+      "nameEN": "Energy Management",
+      "color": "#f39c12"
+    },
+    "lighting": {
+      "nameTR": "Aydınlatma",
+      "nameEN": "Lighting",
+      "color": "#f1c40f"
+    },
+    "security": {
+      "nameTR": "Güvenlik",
+      "nameEN": "Security",
+      "color": "#c0392b"
+    },
+    "fire": {
+      "nameTR": "Yangın Güvenliği",
+      "nameEN": "Fire Safety",
+      "color": "#e74c3c"
+    },
+    "communication": {
+      "nameTR": "İletişim",
+      "nameEN": "Communication",
+      "color": "#3498db"
+    },
+    "vision": {
+      "nameTR": "Makine Görme",
+      "nameEN": "Machine Vision",
+      "color": "#8e44ad"
+    },
+    "identification": {
+      "nameTR": "Tanımlama",
+      "nameEN": "Identification",
+      "color": "#34495e"
+    },
+    "printing": {
+      "nameTR": "3D Baskı",
+      "nameEN": "3D Printing",
+      "color": "#9b59b6"
+    },
+    "laser": {
+      "nameTR": "Laser İşleme",
+      "nameEN": "Laser Processing",
+      "color": "#e67e22"
+    },
+    "cnc": {
+      "nameTR": "CNC Makineler",
+      "nameEN": "CNC Machines",
+      "color": "#2c3e50"
+    },
+    "software": {
+      "nameTR": "Yazılım",
+      "nameEN": "Software",
+      "color": "#34495e"
+    }
+  }
+}

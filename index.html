@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GENMAR Ürün Kataloğu - Çalışma Materyali</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>🔧 GENMAR Ürün Kataloğu</h1>
+        <p>Endüstriyel Araçlar ve Sistemler - Çalışma Materyali</p>
+        <div class="controls">
+          <input
+            type="text"
+            class="search-box"
+            placeholder="Ürün ara... (örn: torkmetre, bataryalı, hava)"
+            id="searchInput"
+          />
+          <button class="lang-toggle" id="langToggle">English</button>
+        </div>
+      </div>
+
+      <div class="stats" id="stats">
+        <strong id="totalProducts">0</strong> ürün gösteriliyor
+      </div>
+
+      <div class="products-grid" id="productsContainer">
+        <!-- Ürünler JavaScript ile yüklenecek -->
+      </div>
+
+      <div class="no-results hidden" id="noResults">
+        <h3>🔍 Ürün bulunamadı</h3>
+        <p>Arama kriterlerinizi değiştirip tekrar deneyin.</p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
